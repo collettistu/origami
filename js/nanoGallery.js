@@ -64,11 +64,6 @@ jQuery(document).ready(function () {
             { src: 'https://i.ibb.co/31s9nrj/big-swan.jpg',
                 srct: 'https://i.ibb.co/F6WLFxy/big-swan.jpg',
                 title: 'Big Swan' }
-            // ,
-            //
-            // { src: '',
-            //     srct: '',
-            //     title: 'Sloth' }
         ],
         thumbnailWidth:         'auto',
         thumbnailHeight:        340,
@@ -80,9 +75,10 @@ jQuery(document).ready(function () {
         thumbnailToolbarAlbum: null,
 
 
-        // css injected into the code.
+        // css animation injected into the code.
         // title_color_#000_#23cb99 -> #000 = initial color -> #23cb99 = on hover color.
-        thumbnailHoverEffect2: 'label_font-size_1em_1.5em|title_backgroundColor_rgba(255,255,255,0.34)_rgba(((255, 68, 0,0.8)|title_color_#000_#45ff49|image_scale_1.00_1.10_5000',
+        // image_scale_1.00_1.10_5000 -> initial scale _ end scale _ length
+        thumbnailHoverEffect2: 'label_font-size_1em_1.5em|title_backgroundColor_rgba(255,255,255,0.34)_rgba(((255, 68, 0,0.8)|title_color_#000_#45ff49|image_scale_1.00_1.10_2000',
         touchAnimation: true,
         touchAutoOpenDelay: 800
     });
