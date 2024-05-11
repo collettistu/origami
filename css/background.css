@@ -1,0 +1,36 @@
+#background
+{
+
+    overflow-x: hidden;
+    background-image: url("../images/Sticker Ortho 2 Outlined.png");
+    background-size: 5%;
+    background-color: rgba(0, 0, 0,0.85);
+    background-blend-mode: darken;
+    animation: background-scale 8s infinite alternate ease-in-out;
+    /*animation: background-slide 5s infinite alternate ease-in-out;*/
+}
+
+@keyframes background-scale
+{
+    0%
+    {
+        background-size:5%;
+    }
+    100%
+    {
+        background-size: 5.5%;
+    }
+}
+
+/*@keyframes background-slide*/
+/*{*/
+/*    0%*/
+/*    {*/
+/*        transform: translateY(0px);*/
+/*    }*/
+/*    100%*/
+/*    {*/
+/*        transform: translateY(0px);*/
+/*        !*transform: translateY(1%);*!*/
+/*    }*/
+/*}*/

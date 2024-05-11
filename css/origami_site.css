@@ -1,0 +1,277 @@
+@font-face {
+    font-family: kubos;
+    src: url(../fonts/KubosOrigami.ttf);
+}
+
+@font-face {
+    font-family: oriBats;
+    src: url(../fonts/Origamibats.ttf);
+}
+
+li
+{
+    display: inline;
+}
+
+/*
+Not sure if this counts or not for CSS animations, but I added it because I liked how it looked
+*/
+.jump_link
+{
+    font-size: 1.5em;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.55s;
+}
+
+.jump_link:hover
+{
+    color: #9f9f9f;
+    transition-duration: 0.55s;
+    /*outline-color: white;*/
+    /*text-outline: white 5px 5px;*/
+}
+
+.active
+{
+    color: purple;
+    transition-duration: 0.55s;
+}
+
+.active:hover
+{
+    color: #5e005e;
+    transition-duration: 0.55s;
+}
+
+.Divider
+{
+    color: #9f9f9f;
+    font-size: x-large;
+    font-weight: bolder;
+    /*cursor: pointer;*/
+    text-decoration: none;
+    color: white;
+}
+
+.header
+{
+    position: absolute;
+    width: 100%;
+    height: 4%;
+    /*box-sizing: border-box;*/
+    /*max-width: 900px;*/
+    z-index: 2;
+    /*display: grid;*/
+    /*grid-template-columns: 1fr;*/
+    background-color: #222222;
+    /*word-spacing: 120px;*/
+}
+
+.sus
+{
+    list-style: none;
+    place-self: center;
+    display: flex;
+    justify-content: center;
+    /*float: right;*/
+    margin: 1vh auto;
+    /*width: 50vw;*/
+}
+
+.Directory
+{
+    /*word-spacing: 120px;*/
+    margin: 0 2%;
+}
+
+.title_div
+{
+    position: relative;
+    top: 75px;
+    /*display: flex;*/
+    text-align: center;
+    /*margin-left: 30%;*/
+}
+
+.title_div > p
+{
+    vertical-align:top;
+    display:inline-block;
+}
+
+.title
+{
+    font-family: Roboto, serif;
+    text-align: center;
+    position: relative;
+    color: white;
+    font-size: 6.5em;
+}
+
+.icon
+{
+    font-family: oriBats, serif;
+    font-size: 7.75em;
+    color: #ff4400;
+    cursor: default;
+
+}
+
+.icon:hover
+{
+    color: cornflowerblue;
+}
+
+.intro
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 85%;
+    margin: 8% auto 5% auto;
+}
+
+.intro_image
+{
+    /*margin: auto auto auto -5%;*/
+    margin: auto auto auto auto;
+    width: 70%;
+    /*height: 50%;*/
+}
+
+.intro_text_div
+{
+    padding: 1.5em;
+    /*margin: auto auto auto 2.5%;*/
+    margin: auto auto auto auto;
+    width: 175%;
+    height: 80%;
+    background-color: #cbcbcb;
+    border-radius: 25px;
+    border: 10px solid #ff4400;
+    font-size: 1.8em;
+}
+
+.intro_text_first
+{
+    margin: auto auto auto auto;
+    font-family: Roboto, serif;
+    padding-bottom: 1em;
+    line-height: 1.5em;
+    /*margin: 32% auto auto -20%;*/
+}
+
+.intro_text
+{
+    margin: auto auto auto auto;
+    font-family: Roboto, serif;
+    /*padding-bottom: 2.5em;*/
+    line-height: 1.5em;
+    /*margin: 32% auto auto -20%;*/
+}
+
+.gallery_holder
+{
+    position: relative;
+    margin: 2% auto 20% auto;
+    width: 80%;
+}
+
+.gallery_title
+{
+    font-size: 5.5em;
+    font-family: kubos, serif;
+    color: #45ff49;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    text-align: center;
+    cursor: default;
+    width: 8.5em;
+    margin: auto;
+    /*padding-bottom: 1%;*/
+}
+
+.gallery_title:hover
+{
+    color: #ff4400;
+}
+
+.creations
+{
+    width: 100%;
+    margin: -5% auto 15% auto;
+    padding: 5%;
+}
+
+.box_of_cranes {
+    width: 20%;
+    height: 20%;
+}
+
+.image
+{
+    width: 20%;
+    height: 20%;
+}
+
+.outro
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    width: 70vw;
+    margin: -16% auto 3% auto;
+}
+
+.outro_text_div
+{
+    font-family: Roboto, serif;
+    padding: 1.5em;
+    margin: auto;
+    background-color: #cbcbcb;
+    border-radius: 25px;
+    border: 10px solid #ff4400;
+    width: 40vw;
+    height: 90%;
+    font-size: 1.75em;
+    line-height: 1.4em;
+}
+
+.outro_text_first
+{
+    padding-bottom: 1.2em;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.outro_text
+{
+    margin: auto;
+    border-radius: 25px;
+}
+
+.interactive
+{
+    /*margin-top: 20%;*/
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.interactive_button
+{
+    width: 5vw;
+    height: 10vh;
+    background-color: cornflowerblue;
+    border-radius: 25px;
+    font-size: x-large;
+}
+
+.video
+{
+    height: 20vw;
+    width: 20vw ;
+    background-color: white;
+}
